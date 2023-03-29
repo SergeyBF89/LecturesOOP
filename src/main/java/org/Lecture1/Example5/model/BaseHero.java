@@ -3,8 +3,8 @@ package org.Lecture1.Example5.model;
 import java.util.Random;
 
 public class BaseHero {
-    protected static int number;
-    protected static Random random;
+    public static int number;
+    public static Random random;
     protected String name;
     protected int hp;
     protected int maxHp;
